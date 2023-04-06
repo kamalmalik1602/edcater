@@ -1,0 +1,74 @@
+/* Navbar3 */
+
+
+    /*.onboarding-profile-insight {
+        animation: fade-in 1s forwards;
+        opacity: 0;
+    }*/
+
+    .onboarding-profile-edit__jobs-title-insight-container {
+        display: flex;
+        margin-left: 4px;
+        transform: translateY(-32px);
+    }
+
+
+
+    .onboarding-profile-insight__icon.onboarding-profile-insight__icon {
+        height: 32px;
+        display: flex;
+        align-items: center;
+    }
+
+    .onboarding-profile-insight__icon--is-highlighted {
+        color: rgba(0,0,0,0.9);
+    }
+
+    /*.onboarding-profile-reward-insight {
+        animation: fade-in 1s forwards;
+        opacity: 0;
+    }*/
+
+    /*li-icon svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }*/
+
+    li-icon>svg {
+        display: block;
+        margin: auto;
+    }
+
+
+
+    .onboarding-profile-insight__content {
+        width: 292px;
+    }
+    .onboarding-profile-insight__content {
+        align-self: center;
+        display: block;
+        max-height: 7.2rem;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    .pl3 {
+        padding-left: 12px!important;
+    }
+
+    .t-normal {
+        font-weight: 400;
+    }
+    
+    .scaffold-layout--reflow .onboarding-profile-insight {
+        position: static;
+        margin-top: 4.8rem;
+        margin-left: 0;
+    }
+    
+    @media screen and (min-width: 768px){
+        .scaffold-layout--reflow .onboarding-profile-insight {
+            position: absolute;
+            margin-top: 0;
+            margin-left: calc(408px + 1.2rem);
+        }
+        }

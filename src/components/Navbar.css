@@ -1,0 +1,318 @@
+body{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+
+
+.onboarding-main__nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 52px;
+    z-index: 3;
+    background-color: var(--color-background-container);
+    padding: 0.8rem;
+    max-width: 1128px;
+}
+
+.mhA {
+    margin-left: auto!important;
+    margin-right: auto!important;
+
+}
+
+div,span,h1,footer{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+li-icon {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (min-width: 1200px){
+.scaffold-layout-container.scaffold-layout-container--reflow {
+    width: 1128px;
+}
+}
+.scaffold-layout {
+    margin-bottom: 1.2rem;
+}
+
+.scaffold-layout-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 576px;
+}
+
+.scaffold-layout__content--main {
+    grid-template-areas: "main";
+    grid-template-columns: 100%;
+}
+
+.scaffold-layout__content {
+    column-gap: 1.2rem;
+    display: grid;
+    grid-area: content;
+    grid-template-columns: minmax(0,1fr);
+    grid-template-rows: auto;
+    row-gap: 1.2rem;
+}
+.scaffold-layout__row {
+    margin: 1.2rem 0;
+}
+
+.scaffold-layout__main {
+    grid-area: main;
+}
+
+main{
+    display: block;
+}
+
+.onboarding-main, .onboarding-widget {
+    background: #fff;
+}
+
+.onboarding-widget__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.onboarding-widget__main-content {
+    flex: auto;
+}
+
+.scaffold-layout--reflow .onboarding-header {
+    width: auto;
+}
+.onboarding-header {
+    padding-bottom: 1.6rem;
+    width: 600px;
+}
+
+.text-align-center {
+    text-align: center!important;
+}
+@media screen and (min-width: 768px){
+.scaffold-layout--reflow .onboarding-header {
+    width: 600px;
+}
+}
+
+.text-heading-xlarge {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.pt6 {
+    padding-top: 32px!important;
+}
+
+.pb3 {
+    padding-bottom: 12px!important;
+}
+
+h1{
+ line-height: 1.2;
+    font-size: 4rem;
+    color: rgba(0,0,0,0.9);
+}
+.scaffold-layout--reflow .onboarding-widget__single-card-container {
+    min-width: 100%;
+    padding: 0 1.6rem;
+}
+@media screen and (min-width: 768px){
+.scaffold-layout--reflow .onboarding-widget__single-card-container {
+    padding: 0;
+    min-width: 408px;
+}
+}
+.onboarding-widget__single-card-container {
+    box-sizing: border-box;
+    min-width: 408px;
+    max-width: 408px;
+}
+.hidden {
+    display: none!important;
+}
+
+.full-width {
+    width: 100%!important;
+}
+
+.onboarding-profile-form-field {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.truncate {
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+}
+
+.mt0 {
+    margin-top: 0!important;
+}
+
+.t-black--light {
+    color: rgba(0,0,0,0.6);
+}
+
+.t-normal {
+    font-weight: 400;
+}
+label{
+    display: block;
+    margin:1.2rem 0 0.3rem;
+}
+.onboarding-profile-form-field__label--required::after {
+    color: #0a66c2;
+    content: "\2A";
+}
+.relative {
+    position: relative!important;
+}
+
+.onboarding-input.onboarding-input {
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.9)!important;
+}
+
+.onboarding-input.onboarding-input, .onboarding-input.onboarding-input:active, .onboarding-input.onboarding-input:focus, .onboarding-input.onboarding-input:hover {
+    border: 1px solid transparent!important;
+}
+input[type=text]{
+    background-color: hsla(0,0%,100%,0);
+    border-radius: 0.4rem;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
+    transition: box-shadow 84ms cubic-bezier(.34,0,.21,1);
+    padding: 0 1rem;
+    width: 100%;
+   
+    vertical-align: middle;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    font-weight: 400;
+}
+.text-align-center {
+    text-align: center!important;
+}
+.mt3 {
+    margin-top: 12px!important;
+}
+ footer {
+    display: block;
+}
+
+.artdeco-button--muted.artdeco-button--tertiary{
+    background-color: hsla(0,0%,100%,0);
+    color: rgba(0,0,0,0.6);
+}
+.full-width {
+    width: 100%!important;
+}
+.mb4 {
+    margin-bottom: 16px!important;
+}
+.artdeco-button--tertiary {
+    border-radius: 0.4rem!important;
+    padding-left: 0.8rem!important;
+    padding-right: 0.8rem!important;
+}
+.artdeco-button{
+    min-width: 0;
+}
+
+.artdeco-button {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: 167ms;
+    align-items: center;
+    border: none;
+   
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+ 
+    max-width: 480px;
+    overflow: hidden;
+    text-align: center;
+    transition-property: background-color,box-shadow,color;
+    vertical-align: middle;
+}
+.artdeco-button--4 {
+    font-size: 1.4rem;
+   
+    line-height: 2.8rem;
+}
+
+button{
+    touch-action: manipulation;
+}
+span{
+    outline: 0;
+}
+
+
+.artdeco-button.artdeco-button--disabled {
+    cursor: not-allowed;
+}
+
+
+.artdeco-button--4 {
+    padding-left: 2.4rem!important;
+    padding-right: 2.4rem!important;
+}
+
+.artdeco-button--4 {
+    border-radius: 2.4rem!important;
+}
+
+.artdeco-button.artdeco-button--disabled * {
+    pointer-events: none;
+}
+
+.artdeco-button.artdeco-button--disabled{
+    cursor: not-allowed;
+}
+
+.artdeco-button--disabled.aartdeco-button, .artdeco-button--disabled.artdeco-button--primary,.artdeco-button--primary:disabled, .artdeco-button:disabled{
+    color:rgba(0,0,0,0.3);
+}
+
+
+
+
+/* Navbar2 css */
+
+.css-qzbt6i-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator{
+    display: none !important;
+}
+
+.css-113ntv0-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator {
+    display: none !important;
+}
+
+.css-l3ln04-MuiAutocomplete-root .MuiOutlinedInput-root {
+     padding: 0px !important; 
+}
+.css-l3ln04-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+    padding: 0.5px 4px 3.5px 6px;
+}
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root{
+    width:100% !important;
+}
+
+
