@@ -37,7 +37,7 @@ h3{
 
 .onboarding-profile-edu__school-years-form-field {
     flex-basis: 50%;
-    min-width: 0;
+
 }
 
 .flex-grow-1 {
@@ -60,11 +60,15 @@ h3{
 
 .onboarding-input.onboarding-input {
     box-sizing: border-box;
+    padding: 5px;
     color: rgba(0,0,0,0.9)!important;
 }
 
 .onboarding-input.onboarding-input{
     border: 1px solid transparent!important;
+}
+.onboarding-input{
+    padding: 5px;
 }
 
 select{
@@ -274,4 +278,8 @@ input{
 
 .artdeco-toggle:after{
     top: unset!important;
+}
+
+.onboarding-header-1 {
+    padding-bottom: 0px;
 }

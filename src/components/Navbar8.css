@@ -1,0 +1,128 @@
+/* Center the form in the middle of the page */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the form labels */
+  label {
+    margin: 10px 0;
+    
+  }
+  
+  /* Style the input fields */
+  input, select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 300px;
+  }
+  
+  /* Style the button */
+ 
+  
+  /* Style the heading */
+  h2 {
+    text-align: center;
+   
+  }
+  
+
+  .checkbox {
+    display: inline-flex;
+    align-items: center;
+  
+    position: absolute;
+    left:550px;
+}
+
+.checkbox__input {
+    display: none;
+}
+
+.checkbox__box{
+    cursor: pointer;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 0.5rem 0rem 1rem;
+    flex-shrink: 0;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.checkbox__box::after{
+    content: '\2714';
+    color: #fff;
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+
+
+.checkbox__input:checked + .checkbox__box {
+  background: #007fed;
+  background-color: #007fed;
+}
+
+.checkbox__input:checked + .checkbox__box::after{
+    transform: scale(1);
+}
+
+.social-container a {
+    text-decoration: underline;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #1c95bd;
+    cursor: pointer;
+    padding: 0;
+    font-weight: 400;
+}
+
+.butn{
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: 167ms;
+    align-items: center;
+    border: none;
+   
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 560px;
+    max-width: 420px;
+    overflow: hidden;
+    text-align: center;
+    transition-property: background-color,box-shadow,color;
+    vertical-align: middle;
+    font-size: 1.4rem;
+    width: 100% !important;
+    line-height: 2.8rem;
+    color: grey;
+    border-radius: 2.4rem!important;
+}
+
+@media screen and (max-width: 768px){
+    .butn{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .checkbox{
+        position: relative;
+        left:100px;
+    }
+}
+
+
+.onboarding-widget__wrapper-1{
+    display: flex;
+}

@@ -19,7 +19,7 @@ function Navbar5() {
                 <div className="onboarding-widget onboarding-profile-edit">
                   <div className="onboarding-widget__wrapper">
                     <div className="onboarding-widget__main-content">
-                      <div className="onboarding-header mhA text-align-center">
+                      <div className="onboarding-header-1 mhA text-align-center">
                         <h1 className="text-heading-xlarge pt6 pb3 ">
                           Your profile helps you discover new people and
                           opportunities

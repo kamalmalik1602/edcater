@@ -1,0 +1,95 @@
+.search-form {
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width:40%;
+  }
+  
+  .inp[type="text"] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+  }
+  
+
+ .people-card {
+    word-wrap: break-word;
+    background-clip: initial;
+    background-color: #fff;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 2.5rem 0 rgb(0 0 0/5%);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    min-width: 0;
+    position: relative;
+    width: 215px;
+    min-height: 290px;
+}
+
+.people-card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  min-height: 217px
+}
+
+ /* img {
+  height: 100px;
+  margin: auto;
+  width: 100px;
+} */
+
+.people-card-img {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+}
+
+.people-card-text, .people-subtitle{
+  font-size: 16px;
+  text-align: center;
+}
+
+ .people-subtitle {
+  --bs-text-opacity: 1;
+  color: #777d74!important;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card-content{
+  margin:0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 20px;
+}
+.footer{
+  display: flex;
+  float: right;
+}
+.footer_button-1{
+  
+  padding: 10px 20px;
+  background-color: #f2356e;
+  color:white;
+  border-radius: 30px;
+  float: right;
+ font-size: 20px;
+  border:none;
+  margin: 0px 170px 20px 0px;
+ 
+  cursor: pointer;
+
+}
+.skiptag{
+  margin-right: 30px;
+  font-size: 20px;
+  color: grey;
+}
